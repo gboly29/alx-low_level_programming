@@ -1,24 +1,10 @@
 #include <stdio.h>
-
 /**
-  * main - Prints some letters of alphabet
-  *
-  * Return: Always (Success)
-  */
+ * main - Entry point
+ * Return: Always 0 (sucess)
+ */
 int main(void)
-{
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar(c);
-		}
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 	}
-
-	putchar('\n');
-
-	return (0);
-}
-
